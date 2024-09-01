@@ -35,16 +35,25 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+### Create the expo app
+### Config the tailwind also remember to add native configuration
+- npm install react-native-safe-area-context (For making the safe area corrrect)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- There is some cache problem in expo so to solve this we can use npx expo start -c
 
-## Join the community
+### Configure ESLINT 
 
-Join our community of developers creating universal apps.
+Then i deleted some inbuild components folder ,constants and some other 
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Set splach screen 
+
+import the font text in asset folder and set in tailwind configuration and set in main layout page also
+
+index page is the main page in this app
+
+-- Created a (root) folder containing other folder named
+(tabs) which is mean to have on the buttom of the app 
+also created the 4 tabs of it 
+
+Note : Every folder should contain layout page # uberClone
